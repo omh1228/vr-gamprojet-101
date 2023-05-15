@@ -278,7 +278,7 @@ GameObject:
   - component: {fileID: 582303993}
   m_Layer: 0
   m_Name: Plane
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -694,6 +694,7 @@ MonoBehaviour:
   moveSpeed: 6
   PlayerPivot: {fileID: 1275085218}
   projectileController: {fileID: 996246194}
+  Player_Hp: 50
 --- !u!54 &1840028795
 Rigidbody:
   m_ObjectHideFlags: 0
